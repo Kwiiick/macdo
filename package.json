@@ -1,0 +1,22 @@
+{
+  "name": "macdo",
+  "version": "1.0.0",
+  "description": "MacDo est un bot RP",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "express": "^4.16.2",
+    "fs": "^0.0.1-security",
+    "lowdb": "^1.0.0",
+    "ms": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "macdo"
+  ],
+  "author": "Kwick",
+  "license": "ISC"
+}
