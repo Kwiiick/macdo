@@ -26,7 +26,6 @@ var Mod = "🌠Mod🌠";
 var log = "414180156312387597";
 
 var prefix = "!";
-const token = "NDE0MTEyMzYzMTk4MDIxNjMy.DWo4qw.SQzm4jsdF663lSeiJ8mprpBVD-k";
 var mention = "<@414112363198021632>";
 var memberCount = bot.users.size;
 var servercount = bot.guilds.size;
@@ -285,4 +284,4 @@ bot.on('guildMemberRemove', member => {
 });
 
 // BOT LOGIN
-bot.login(token)
+bot.login(process.env.TOKEN)
